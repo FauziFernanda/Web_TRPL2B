@@ -1,0 +1,130 @@
+List / daftar											(w3school)
+1. list yang berurutan / order list
+<ol>
+<li>
+
+2.list yang tidak berurutan / unorder list
+<ul>
+<li>
+
+start = memulai urutan angka
+reversed = hitung mundur dari angka yang ditentukan
+bgcolor = warna background 
+
+==================================================================================
+
+A. TABLE
+-baris(row)
+-kolom(column)
+-sel(cell)
+-garis(border)
+
+tag element table
+
+<table></table>		-> tag utama (Wajib)
+
+<thead>			-> table head
+
+<tbody>			-> table body
+
+<tr>				-> table row (Wajib)
+
+<th>				-> table head
+
+<td>				-> table data (Wajib)
+
+
+cellpadding 	-> memberikan jarak pada isi table
+------------------------------------------------------
+MENGGABUNGKAN 
+
+colspan
+rowspan
+
+width (ukuran di layar) 	-> jika tetap pakai cell
+
+valign (posisi isi tabel atas atau bawah)
+top(keatas)
+valign saja (keatas tengah)
+
+align(posisi horizontal)
+start (awal)
+center (tengah)
+end(akhir)
+====================================================================================
+
+Link
+
+<a> 
+
+href (klik)
+==========================================================================================
+
+Image, audio dan video
+
+border
+border-radius 	>> MEMOTONG PINGGIR FOTO
+gaya bingkai:
+
+solid
+doted
+
+
+
+audio 
+loop =  mengulang audio
+controls = mengontrol lagu
+autoplay
+
+
+video
+poster = gambar pada awal video
+
+
+========================================================================================================
+
+Form
+
+GET =  Sifat URL
+POST = sifat nya server
+
+type = tipe data pada inputan
+	- number
+	- text
+	-submit
+	-email
+
+required 	--> menambahkan pesan jika kosong
+
+value --> mengubah pesan pada submit
+
+===================================================================================================================
+
+
+
+
+CSS
+
+how to add css
+1. Inline
+2. Internal 
+
+css selector
+1. element/tag
+
+		<style>
+			body{
+				font-family:Arial 		--> Mengubah Font
+			}
+
+			*(untuk seluruh isi)<--- h1 {color:blue}
+		</style>
+
+(Dibawah di dalam head)
+
+
+2. Id
+3.class
+
+	1 class style bisa untuk 1 atau banyak element
+	1 elemnt bisa di beri banyak class

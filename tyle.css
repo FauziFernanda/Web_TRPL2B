@@ -1,0 +1,59 @@
+ <DOCTYPE html>
+<html>
+	<head>
+		<title>CSS -Cascading Style Sheets</title>
+		<meta name="author" content="Fauzi Fernanda" > 
+		body{
+				font-family:Arial
+			}
+		<style>
+			h1{
+				color:green;
+				text-decoration-line:overline underline;
+				text-transform;
+				text-shadow: 4px 0px;
+			}
+			p{
+				text-indent: 40px;
+				letter-spacing: 2px;
+				line-height: 1.2;
+				word-spacing: 8px;
+			}
+			
+			#paragraf1{background-color:tomato}
+			
+			.rata-tengah{
+				text-align: center
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1 style="color:red;background-color:yellow" class="rata-tengah">Tutorial CSS</h1>
+		<h1>CSS Basic</h1>
+		<p id="paragraf1">
+			Lorem ipsum odor amet, consectetuer adipiscing elit. Fusce magna morbi integer tellus nam fermentum. 
+			<b>Adipiscing parturient volutpat</b> curae himenaeos; vitae porta pulvinar pharetra consectetur. 
+			Molestie sagittis iaculis est vestibulum neque finibus amet. Justo luctus ridiculus imperdiet 
+			eros leo aliquet pellentesque aenean finibus. Sagittis rutrum nostra taciti congue magna sodales. 
+			Senectus etiam hac suscipit congue mattis natoque accumsan. Cursus a ridiculus lacus montes dis.
+		</p>
+		
+		<p class="rata-tengah">
+			Iaculis ante quis ut enim pretium vitae dapibus. Vel suscipit in nisi volutpat tristique est ac. 
+			Torquent adipiscing lobortis scelerisque magnis mattis. Sem lacinia at ut mattis quam. 
+			Sapien risus in eget; consequat sodales ultrices nisi quam. Iaculis maecenas dui dui egestas curae 
+			leo sagittis? Egestas interdum egestas magnis sodales urna massa. Penatibus diam odio dictum mollis; 
+			et consectetur augue. Ante inceptos per litora faucibus sollicitudin suspendisse nisi interdum.
+		</p>
+		
+		<p>
+			Sodales venenatis lectus porta aenean gravida mi nascetur magna. At malesuada ligula habitasse 
+			nam mus placerat a feugiat. Faucibus dui suspendisse ultrices tempus eleifend urna faucibus. 
+			Non integer phasellus imperdiet nam ornare. Consequat rhoncus aenean lacinia, molestie magna pharetra.
+			Non lorem ultrices eu egestas porttitor, metus ligula ut. At luctus at imperdiet scelerisque; malesuada erat. 
+			Justo sit massa, eros ad ridiculus tellus donec lacinia. Ridiculus quam ipsum posuere nostra curabitur amet donec nam. 
+			Malesuada metus leo efficitur dui elit; fames sem quam.
+		</p>
+	</body>
+</html>

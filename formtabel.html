@@ -1,0 +1,82 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Form Tabel HTML</title>
+		<meta name="author" content="Fauzi Fernanda"> 
+	</head>
+	
+	<body>
+		<h1>Form Pendaftaran</h1>
+		<form method="GET" action="">
+		<fieldset>
+			<legend>Data Pribadi</legend>
+			<table>
+			<tr>
+				<td><label for="nama">Nama : </label></td>
+				<input type="text" name="nama" id="nama" placeholder="Input Nama Anda" required /><br><br>
+			</tr>
+			
+			<tr>
+				<td><label for="nim">NIM : </label></td>
+				<input type="number" name="nim" id="nim" placeholder="Input NIM Anda" required /><br><br>
+			</tr>
+			
+			<tr>
+				<td><label for="email">Email : </label></td>
+				<input type="email" name="email" id="email" placeholder="Input Email Anda" required /><br><br>
+			</tr>
+			
+			<tr>
+				<td><label for="password">Password : </label></td>
+				<input type="password" name="password" id="password" placeholder="Input password Anda" required /> <br><br>
+			</tr>	
+			
+			<tr>
+				<td><label for="date">Tanggal Lahir : </label></td>
+				<input type="date" name="date" id="date" required /><br><br>
+			</tr>
+			
+			<tr>
+				<td><label for="jk">Jenis Kelamin : </label></td>
+				<input type="radio" name="gender" value="laki-laki" />Laki-laki
+				<input type="radio" name="gender" value="Perempuan" />Perempuan<br><br>
+			</tr>
+			
+			<tr>
+				<td><label for="jk">Hobi : </label></td>
+				<input type="checkbox" name="hobi" value="Membaca" required /> Membaca
+				<input type="checkbox" name="hobi" value="Bernyanyi" required /> Bernyanyi
+				<input type="checkbox" name="hobi" value="Olahraga" required /> Olahraga <br><br>
+			<tr>
+			
+			<tr>
+				<td><label for="jurusan">Jurusan :</label><td>
+				<select name="jurusan" id="jurusan">
+					<option value="">Pilih Jurusan</option>
+					<option value="TI">Teknologi Informasi</option>
+					<option value="TE">Teknik Elektro</option>
+					<option value="TM">Teknik Mesin</option>
+					<option value="TS">Teknik Sipil</option>
+					</select><br><br>
+			</tr>
+			
+			<tr>
+				<td><label for="alamat">Alamat : </label></td>
+				<textarea name="alamat" id="alamat" cols="30" rows="10"></textarea><br><br>
+			</tr>
+			
+			<tr>
+				<td><label for="foto">Upload Foto : </label></td>
+				<input type="file" name="foto" id="foto" accept="image/*" /><br><br>
+			</tr>
+			
+			<tr>
+				<td><input type="submit" name="submit"/></td>
+				<input type="reset" name="reset"/><br><br>
+			</tr>
+			
+			</table>
+		</fieldset>
+		</form>
+	</body>
+</html>
